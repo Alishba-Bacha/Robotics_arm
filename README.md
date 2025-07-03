@@ -1,9 +1,7 @@
 # Robotics Arm Simulation with ROS & Gazebo
 
-This repository contains the simulation environment and control packages for a robotic arm. The project is built using ROS Noetic and Gazebo 11.
+The project is built using ROS Noetic and Gazebo 11.
 
-![image_or_gif_of_your_robot](https://via.placeholder.com/600x400.png?text=Add+a+GIF+of+your+Robot+Arm+Here!)
-*(Suggestion: Replace the placeholder above with a cool GIF of your robot arm in action!)*
 
 ---
 
