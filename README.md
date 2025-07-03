@@ -116,27 +116,4 @@ Now, launch your Ubuntu 20.04 terminal from the Windows Start Menu and follow th
 
 Once the prerequisites are installed, you can set up and run this project.
 
-1.  **Clone the Repository:**
-    ```bash
-    # Navigate to your catkin workspace source directory
-    cd ~/catkin_ws/src/
-    git clone <URL_of_your_repo>
-    ```
-
-2.  **Build the Workspace:**
-    ```bash
-    cd ~/catkin_ws/
-    catkin_make
-    ```
-
-3.  **Source your Workspace:**
-    ```bash
-    source ~/catkin_ws/devel/setup.bash
-    ```
-    > **Tip:** Add this command to your `~/.bashrc` file to avoid running it in every new terminal.
-
-4.  **Launch the Simulation:**
-    ```bash
-    # Replace with the actual package and launch file name
-    roslaunch your_robot_arm_package main.launch
-    ```
+You will able to clone this repository i will further share more details ahead
