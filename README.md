@@ -112,6 +112,12 @@ Now, launch your Ubuntu 20.04 terminal from the Windows Start Menu and follow th
 
 ---
 
+If you want that ros and gazebo should work side by side, first run 
+```bash
+    roscore
+    ```
+and this should run in the background
+
 ## **Running the Robotic Arm Simulation**
 
 Once the prerequisites are installed, you can set up and run this project.
