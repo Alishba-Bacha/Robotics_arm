@@ -115,11 +115,38 @@ Now, launch your Ubuntu 20.04 terminal from the Windows Start Menu and follow th
 If you want that ros and gazebo should work side by side, first run 
 ```bash
     roscore
-    ```
+ ```
 and this should run in the background
 
 ## **Running the Robotic Arm Simulation**
 
 Once the prerequisites are installed, you can set up and run this project.
 
-You will able to clone this repository i will further share more details ahead
+You will able to clone this repository i will further share more details ahead.
+
+##**From Scratch**
+
+1: Setup: 
+create catkin workspace
+```bash
+    mkdir ~/robotic_arm/src
+    cd ~/roboti_arm
+   catkin_make
+```
+
+source new setup file
+```bash
+    echo "source ~/robotic_arm/devel/setup.bash" >> ~/.bashrc
+    source ~/.bashrc
+```
+
+create project package
+```bash
+    cd ~/robotic_arm/src catkin_create_pkg mobile_manipulator_bot roscpp rospy std_msgs urdf xacro gazebo_ros controller_manager joint_state_publisher robot_state_publisher moveit_ros_planning_interface
+```
+
+Install ros packages(ROS Noetic)
+```bash
+    sudo apt-get update
+    sudo apt-get install ros-noetic-ros-control ros-noetic-ros-controllers ros-noetic-gazebo-ros-control ros-noetic-moveit
+```
